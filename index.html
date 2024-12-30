@@ -22,6 +22,20 @@
             height: auto;
             margin-bottom: 1rem;
         }
+        @media (max-width: 500px) {
+            #media {
+                position: relative;
+                top: 4vh;
+            }
+
+        }
+        @media (max-width: 380px) {
+            #media {
+                position: relative;
+                top: 0vh;
+            }
+
+        }
     </style>
 </head>
 <body class="header-fixed main home3">
@@ -86,7 +100,7 @@
                                             <h2 class="title">GAme Stop </h2>
                                             <p class="sub-title">Community Mascot Edition</p>
                                             <div class="wrap-btn style2">
-                                                <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x5de5aca787818a2d485e278727ce575d54fedbe4" class="tf-button-st2 btn-effect" data-toggle="modal" data-target="#popup_bid"><span class="effect">Buy $buck</span></a>
+                                                <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x5de5aca787818a2d485e278727ce575d54fedbe4" class="tf-button-st2 btn-effect" id="media" data-toggle="modal" data-target="#popup_bid"><span class="effect">Buy $buck</span></a>
                                                 <a href="https://www.youtube.com/watch?v=Xq9gucD7t-k" class="tf-button btn-effect popup-youtube">
                                                     <span class="boder-fade"></span>
                                                     <span class="effect">watch video</span>
